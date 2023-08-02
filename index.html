@@ -7,28 +7,24 @@
     </title>
 </head>
 
-
 <body>
-
 
     <h1>
         BMI CALCULATOR MADE BY TIAGO PEREIRA
     </h1>
 
     <form>
-        <label>
-            Age: <input type="number"> <br> <br>
-            Weight (Kilos): <input type="number"> <br> <br>
-            Height (Centimeters): <input type="number"> <br> <br>
-        </label>
-
-
-        <input type="submit" value="NEXT">
-
+        <label> Weight (kg)</label>
+        <input type="number" id="weight"> <br> <br>
+        <label> Height (mt) </label>
+        <input type="number" id="height"> <br> <br>
+        <button type="button" onclick="calculatebmi()">Submit</button>
 
     </form>
 
+    <p id='heading'></p>
+    <p id='bmi'></p>
+
+    <script src="script.js"></script>
 
 </body>
-
-</html>
