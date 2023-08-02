@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(164, 255, 137);
+}
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+form {
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 370px;
+    margin-right: 370px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 179, 179);
+}
+
+button {
+    background-color: #e92300;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: ;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#heading,
+#message {
+    font-size: 17px;
+}
+
+
+#bmi {
+    font-size: 25px;
+    font-weight: bolder;
+}
